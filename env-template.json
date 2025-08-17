@@ -1,0 +1,46 @@
+{
+  "development": {
+    "server": {
+      "MONGODB_URI": "mongodb+srv://username:password@cluster.mongodb.net/codepilot-ai",
+      "JWT_SECRET": "your-super-secret-jwt-key-change-this-in-production",
+      "GITHUB_CLIENT_ID": "Ov23liAoQkJhJGJhJGJh",
+      "GITHUB_CLIENT_SECRET": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+      "GEMINI_API_KEY": "AIzaSyBpQkJhJGJhJGJhJGJhJGJhJGJhJGJhJGJh",
+      "OPENAI_API_KEY": "sk-proj-1234567890abcdef1234567890abcdef1234567890abcdef",
+      "CLIENT_URL": "http://localhost:3000",
+      "SERVER_URL": "http://localhost:5000",
+      "NODE_ENV": "development",
+      "PORT": "5000"
+    },
+    "client": {
+      "REACT_APP_API_URL": "http://localhost:5000",
+      "REACT_APP_ENV": "development",
+      "REACT_APP_GITHUB_CLIENT_ID": "Ov23liAoQkJhJGJhJGJh",
+      "REACT_APP_CLIENT_URL": "http://localhost:3000",
+      "REACT_APP_OPENAI_API_KEY": "sk-proj-1234567890abcdef1234567890abcdef1234567890abcdef",
+      "REACT_APP_GEMINI_API_KEY": "AIzaSyBpQkJhJGJhJGJhJGJhJGJhJGJhJGJhJGJh"
+    }
+  },
+  "production": {
+    "server": {
+      "MONGODB_URI": "mongodb+srv://your-username:your-password@your-cluster.mongodb.net/codepilot-ai-prod",
+      "JWT_SECRET": "your-production-jwt-secret-make-it-very-secure",
+      "GITHUB_CLIENT_ID": "Ov23liAoQkJhJGJhJGJh",
+      "GITHUB_CLIENT_SECRET": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+      "GEMINI_API_KEY": "AIzaSyBpQkJhJGJhJGJhJGJhJGJhJGJhJGJhJGJh",
+      "OPENAI_API_KEY": "sk-proj-1234567890abcdef1234567890abcdef1234567890abcdef",
+      "CLIENT_URL": "https://your-frontend-domain.com",
+      "SERVER_URL": "https://your-backend-domain.com",
+      "NODE_ENV": "production",
+      "PORT": "5000"
+    },
+    "client": {
+      "REACT_APP_API_URL": "https://your-backend-domain.com",
+      "REACT_APP_ENV": "production",
+      "REACT_APP_GITHUB_CLIENT_ID": "Ov23liAoQkJhJGJhJGJh",
+      "REACT_APP_CLIENT_URL": "https://your-frontend-domain.com",
+      "REACT_APP_OPENAI_API_KEY": "sk-proj-1234567890abcdef1234567890abcdef1234567890abcdef",
+      "REACT_APP_GEMINI_API_KEY": "AIzaSyBpQkJhJGJhJGJhJGJhJGJhJGJhJGJhJGJh"
+    }
+  }
+}
